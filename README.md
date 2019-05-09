@@ -38,17 +38,13 @@ Xcode自定义头部信息
 
 4. 保存文件,放在指定目录下. 在不同的目录下,作用的范围不同
 
-       a.  存放在该目录下,对当前 Project 指定的用户（username）有影响 
-        `<ProjectName>.xcodeproj/xcuserdata/[username].xcuserdatad/IDETemplateMacros.plist`
 
-       b.  存放在该目录下,对当前 Project 所有的用户有影响  
-       `<ProjectName>.xcodeproj/xcshareddata/IDETemplateMacros.plist`
+  1. 存放在该目录下,对当前 Project 指定的用户（username）有影响  `<ProjectName>.xcodeproj/xcuserdata/[username].xcuserdatad/IDETemplateMacros.plist`
+  2. 存放在该目录下,对当前 Project 所有的用户有影响 `<ProjectName>.xcodeproj/xcshareddata/IDETemplateMacros.plist`
+  3. 存放在该目录下,对当前 Workspace 所有的用户有影响 `<WorkspaceName>.xcworkspace/xcshareddata/IDETemplateMacros.plist`
+  4. 存放在该目录下,对 Xcode 所有创建的文件都有影响 `~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist`
 
-       c.  存放在该目录下,对当前 Workspace 所有的用户有影响 
-        `<WorkspaceName>.xcworkspace/xcshareddata/IDETemplateMacros.plist`
-
-       d.  存放在该目录下,对 Xcode 所有创建的文件都有影响 
-       `~/Library/Developer/Xcode/UserData/IDETemplateMacros.plist`
+  
 
 [参考资料](https://help.apple.com/xcode/mac/9.0/index.html#/devc8a500cb9)
 
