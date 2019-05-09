@@ -3,11 +3,11 @@ Xcode自定义头部信息
 
 ###### 这是Xcode自定义的头部信息 
 
-![自定义](/Users/liyang/Desktop/XcodeCustomHeader/images/Snip20190509_3.png)
+![自定义](https://github.com/liyang123/XcodeCustomHeader/blob/master/images/Snip20190509_3.png)
 
 我们的目标是
 
-![](/Users/liyang/Desktop/XcodeCustomHeader/images/Snip20190509_5.png)
+![](https://github.com/liyang123/XcodeCustomHeader/blob/master/images/Snip20190509_5.png)
 
 #### 实现步骤
 
